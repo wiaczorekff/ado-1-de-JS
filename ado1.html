@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Introdução ao JavaScript</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="lib/testefw.css">
+        <link rel="stylesheet" href="ado1.css">
+        <script src="lib/utils.js" defer></script>
+        <script src="lib/testefw.js" defer></script>
+        <script src="ado1-teste.js" defer></script>
+        <script src="ado1.js" defer></script>
+        <script>
+            "use strict";
+
+            function limparForm17() {
+                document.querySelectorAll(".ex17 input[type='text']").forEach(e => e.value = "");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="formzinho ex14" id="rot13">
+            <h1>Formulário para o exercício 14</h1>
+            <p>
+                <label for="entra-rot13">Digite aqui o seu texto:</label>
+                <textarea id="entra-rot13" oninput="fazerRot13()"></textarea>
+            </p>
+            <p>
+                <label for="sai-rot13">Saída:</label>
+                <textarea id="sai-rot13" readonly></textarea>
+            </p>
+        </div>
+        <div class="formzinho ex17">
+            <h1>Formulário para o exercício 17</h1>
+            <p>
+                <label for="ladoA">Lado A:</label>
+                <input type="text" id="ladoA">
+            </p>
+            <p>
+                <label for="ladoB">Lado B:</label>
+                <input type="text" id="ladoB">
+            </p>
+            <p>
+                <label for="ladoC">Lado C:</label>
+                <input type="text" id="ladoC">
+            </p>
+            <p class="ex17-botao">
+                <label for="botaoTriangulo">&nbsp;</label>
+                <button type="button" id="botaoTriangulo" onclick="verificarTriangulo();">Verificar</button>
+            </p>
+            <p>
+                <label for="tipoTriangulo">Tipo do triângulo:</label>
+                <input type="text" id="tipoTriangulo" class="grande" readonly>
+            </p>
+            <p>
+                <label for="areaTriangulo">Área do triângulo:</label>
+                <input type="text" id="areaTriangulo" readonly>
+            </p>
+            <p class="ex17-botao">
+                <label for="btLimpar1">&nbsp;</label>
+                <button type="button" id="btLimpar1" onclick="limparForm17();">Limpar</button>
+            </p>
+        </div>
+    </body>
+</html>

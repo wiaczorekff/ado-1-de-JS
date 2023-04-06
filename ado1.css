@@ -1,0 +1,99 @@
+/* Formulários. */
+
+.formzinho * {
+    box-sizing: border-box;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.formzinho ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    padding: 0;
+}
+
+.formzinho ul, .formzinho ol, .formzinho h1, .formzinho h2, .formzinho h3 {
+    margin: 0;
+}
+
+.formzinho h1 {
+    font-size: 2em;
+}
+
+.formzinho h2 {
+    font-size: 1.6em;
+}
+
+.formzinho h3 {
+    font-size: 1.2em;
+}
+
+.formzinho input[type="radio"] {
+    margin: 0;
+}
+
+.formzinho label, .formzinho input[type="text"], .formzinho button {
+    height: 25px;
+}
+
+.formzinho textarea {
+    height: 25px;
+}
+
+.formzinho button {
+    border: 1px black solid;
+    background: blue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    height: 25px;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+.formzinho input {
+    border: 1px black solid;
+    background: #0FF;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 1.25em;
+    width: 75px;
+}
+
+.formzinho {
+    border: 1px black solid;
+    background: #DFF;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.formzinho p {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: text-top;
+}
+
+.formzinho label {
+    display: block;
+    font-size: 1.2em;
+}
+
+#tipoTriangulo {
+    width: 400px;
+}
+
+#areaTriangulo {
+    width: 160px;
+}
+
+.formzinho textarea {
+    width: 600px;
+    height: 200px;
+}
+
+.formzinho .ex17-botao {
+    position: relative;
+}
